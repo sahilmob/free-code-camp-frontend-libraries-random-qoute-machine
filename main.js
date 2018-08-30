@@ -3,3 +3,5 @@ var author = document.getElementById("author");
 var newQuote = document.getElementById("new-quote");
 var tweetQuote = document.getElementById("tweet-quote");
 
+newQuote.addEventListener('click', getQuote)
+
