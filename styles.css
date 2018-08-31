@@ -3,5 +3,13 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden
-}
+    overflow: hidden;
+    background: #141B41;
+  }
+
+  #quote-box{
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 3px;
+  }
+
