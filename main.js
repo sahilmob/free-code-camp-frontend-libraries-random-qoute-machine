@@ -10,7 +10,7 @@ function getQuote() {
         .then(({ data: { quotes } }) => {
             const quote = quotes[Math.floor(Math.random() * (quotes.length - 0 + 1)) + 0]
             console.log(quote);
-            text.innerText = quote.quote
-            author.innerText = quote.author
+            text.innerText = "“" + quote.quote
+            author.innerText = "- " + quote.author
         })
 }
