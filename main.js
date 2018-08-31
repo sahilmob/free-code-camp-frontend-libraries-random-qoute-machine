@@ -14,3 +14,5 @@ function getQuote() {
             author.innerText = "- " + quote.author
         })
 }
+
+getQuote()
