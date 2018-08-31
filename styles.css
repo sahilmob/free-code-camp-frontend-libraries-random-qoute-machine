@@ -28,4 +28,19 @@ body{
       text-align: right;
   }
 
+  #new-quote{
+      background: #306BAC;
+      box-shadow: none;
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 3px;
+      float: right;
+      margin-top: 20px;
+      cursor: pointer;
+  }
+
+  #tweet-quote{
+      color: #141B41;
+  }
 
